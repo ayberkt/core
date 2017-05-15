@@ -1,4 +1,4 @@
-{-# LANGUAGE NoMonomorphismRestriction, PatternGuards #-}
+{-# LANGUAGE NoMonomorphismRestriction, PatternGuards, FlexibleContexts #-}
 module Language.Core.Parser
     ( parseModule, lexer
     ) where
